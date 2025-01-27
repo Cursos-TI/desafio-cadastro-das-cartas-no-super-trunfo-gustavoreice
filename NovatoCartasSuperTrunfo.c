@@ -1,8 +1,10 @@
 #include <stdio.h>
 
     int main(){
-        int populacao, pontoturistico;
-        float area, pib;
+        int populacao;
+        int pontoturistico;
+        float area;
+        float pib;
         char nome[20]; 
 
         printf("Qual o número de habitantes da cidade? \n");
@@ -15,7 +17,7 @@
         scanf("%f", &area);
 
         printf("Qual a cotação do PIB da cidade? \n");
-        scanf("%.2f", &pib);
+        scanf("%f", &pib);
 
         printf("Qual o nome da cidade? \n");
         scanf("%s", &nome);

@@ -1,6 +1,8 @@
 #include <stdio.h>
 
     int main(){
+
+        /*Carta A01 referência cidade de Barueri SP*/
         int pontoturistico = 15;
         float populacao = 316.473;
         float area = 64.17;

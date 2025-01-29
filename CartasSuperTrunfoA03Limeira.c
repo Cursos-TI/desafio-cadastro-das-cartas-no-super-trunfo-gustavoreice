@@ -11,8 +11,8 @@
 
        
 
-        printf("Nome da cidade: %s\n", nome);
-        printf("Número de habitante: %.3f\n", populacao);
+        printf("Cidade: %s\n", nome);
+        printf("Habitante: %.3f\n", populacao);
         printf("Área: %.3fkm²\n", area);
         printf("PIB per capita: %.3f R$\n", pib);
         printf("Número de pontos turísticos: %d\n", pontoturistico);

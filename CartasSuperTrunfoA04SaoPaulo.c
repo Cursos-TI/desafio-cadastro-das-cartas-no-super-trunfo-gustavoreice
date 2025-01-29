@@ -2,17 +2,17 @@
 
     
         int main(){
-             /*Carta A02 referência cidade de Itapevi SP*/
-        int pontoturistico = 15;
-        float populacao = 232.297;
-        float area = 82.659;
-        float pib = 52.656;
-        char nome[20] = "Itapevi"; 
+             /*Carta A03 referência cidade de São Paulo SP*/
+        int pontoturistico = 30;
+        float populacao = 11.451;
+        float area = 1.521;
+        float pib = 66.872;
+        char nome[20] = "São Paulo"; 
 
        
 
         printf("Cidade: %s\n", nome);
-        printf("Habitante: %.3f\n", populacao);
+        printf("Habitante: %.3f Milhões\n", populacao);
         printf("Área: %.3fkm²\n", area);
         printf("PIB per capita: %.3f R$\n", pib);
         printf("Número de pontos turísticos: %d\n", pontoturistico);

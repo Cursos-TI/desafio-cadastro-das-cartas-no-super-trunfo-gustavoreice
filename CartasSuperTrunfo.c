@@ -17,12 +17,14 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+    //Introdução de variaveis seguindo o pedido a cima.    
         int pontoturistico, codigo;
         float populacao ;
         float area ;
         float pib ;
         char nome[20]; 
-
+    //Entrada de dados:
        printf("Qual o código da cidade resgistro no IBGE ?\n", codigo);
        scanf("%d", &codigo);
 
@@ -40,7 +42,7 @@ int main() {
 
        printf("Qual o PIB per capita registra no IBGE?\n", pib);
        scanf("%f", &pib);
-
+    //Saida de Dados Recebidos:
         printf("Cidade: %s\n", nome);
         printf("Código do Município: %d\n", codigo);
         printf("Habitante: %.3f\n", populacao);

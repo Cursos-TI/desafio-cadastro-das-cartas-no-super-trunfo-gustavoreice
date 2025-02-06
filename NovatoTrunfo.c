@@ -4,6 +4,7 @@
 int main() {
     
     //Introdução de variaveis:    
+    
         int pontoturistico, codigo;
         float populacao ;
         float area ;

@@ -44,6 +44,9 @@ int main() {
         printf("Área: %.3fkm²\n", area);
         printf("PIB : %.3f R$\n", pib);
         printf("Número de pontos turísticos: %d\n", pontoturistico);
+    
+    // Saida de Calculos:
+
         printf("Densidade Populacional: %.3f por KM²\n", densidade);
         printf("PIB per Capita: %.2f R$\n", capita);
 

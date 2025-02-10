@@ -8,7 +8,7 @@ int main() {
         float populacao ;
         float area ;
         float pib, densidade, capita ;
-        char nome[20];  
+        char nome[30];  
 
     //Entrada de dados:
 
@@ -42,7 +42,7 @@ int main() {
         printf("Código do Município: %d\n", codigo);
         printf("Habitante: %.3f\n", populacao);
         printf("Área: %.3fkm²\n", area);
-        printf("PIB : %.3f R$\n", pib);
+        printf("PIB : %.2f R$\n", pib);
         printf("Número de pontos turísticos: %d\n", pontoturistico);
     
     // Saida de Calculos:

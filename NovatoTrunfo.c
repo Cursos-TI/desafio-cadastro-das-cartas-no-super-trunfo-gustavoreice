@@ -37,7 +37,7 @@ int main() {
         printf("Código do Município: %d\n", codigo);
         printf("Habitante: %.3f\n", populacao);
         printf("Área: %.3fkm²\n", area);
-        printf("PIB per capita: %.3f R$\n", pib);
+        printf("PIB : %.2f R$\n", pib);
         printf("Número de pontos turísticos: %d\n", pontoturistico);
 
     return 0;

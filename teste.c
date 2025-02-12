@@ -22,7 +22,7 @@ int main() {
        printf("Qual o nome da cidade escolhida?\n", nome);
        scanf("%s", &nome); 
 
-       printf("Qual a sigla do estado da cidade escolhido.+?\n", estado);
+       printf("Qual o nome da estado escolhido?\n", estado);
        scanf("%s", &estado); 
 
        printf("Qual o número de pontos turisticos da cidade escolhida?\n", pontoturistico);
@@ -49,4 +49,3 @@ int main() {
         printf("Número de pontos turísticos: %d\n", pontoturistico);
 
     return 0;
-}

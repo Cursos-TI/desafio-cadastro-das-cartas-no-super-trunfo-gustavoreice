@@ -8,7 +8,8 @@ int main() {
         float populacao ;
         float area ;
         float pib, densidade, capita ;
-        char nome[30];  
+        char nome[30];
+        char estado[30];  
 
     //Entrada de dados:
 
@@ -17,6 +18,9 @@ int main() {
 
        printf("Qual o nome da cidade escolhida?\n", nome);
        scanf("%s", &nome); 
+
+       printf("Qual a sigla do estado da cidade escolhido.+?\n", estado);
+       scanf("%s", &estado); 
 
        printf("Qual o número de pontos turisticos da cidade escolhida?\n", pontoturistico);
        scanf("%d", &pontoturistico);
@@ -38,17 +42,18 @@ int main() {
 
         
     //Saida de Dados Recebidos:
+        printf("Estado: %s\n", estado);
         printf("Cidade: %s\n", nome);
         printf("Código do Município: %d\n", codigo);
         printf("Habitante: %.3f\n", populacao);
         printf("Área: %.3fkm²\n", area);
-        printf("PIB : %.2f R$\n", pib);
+        printf("PIB : %.2f Milhões de Reais\n", pib);
         printf("Número de pontos turísticos: %d\n", pontoturistico);
     
     // Saida de Calculos:
 
         printf("Densidade Populacional: %.3f por KM²\n", densidade);
-        printf("PIB per Capita: %.2f R$\n", capita);
+        printf("PIB per Capita: %.2f Milhões de Reais\n", capita);
 
     return 0;
 }

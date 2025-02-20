@@ -6,11 +6,9 @@ int main() {
     //Introdução de variaveis:    
     
         int pontoturistico, codigo;
-        float populacao ;
-        float area ;
-        float pib ;
-        char nome[20]; 
-        char estado[21];  
+        float populacao, area, pib;
+        char nome[20], estado[21]; 
+         
 
     //Entrada de dados:
 
@@ -19,19 +17,19 @@ int main() {
        printf("Qual o código da cidade resgistro no IBGE ?\n", codigo);
        scanf("%d", &codigo);
 
-       printf("Qual o nome da cidade escolhida?\n", nome);
+       printf("Qual o nome da cidade escolhida ?\n", nome);
        scanf("%s", &nome); 
 
-       printf("Qual a sigla do estado da cidade escolhido.+?\n", estado);
+       printf("Qual a sigla do estado da cidade escolhido ?\n", estado);
        scanf("%s", &estado); 
 
-       printf("Qual o número de pontos turisticos da cidade escolhida?\n", pontoturistico);
+       printf("Qual o número de pontos turisticos da cidade escolhida ?\n", pontoturistico);
        scanf("%d", &pontoturistico);
 
        printf("Qual o total de habitantes registrado no IBGE da cidade escolhida ?\n", populacao);
        scanf("%f", &populacao);
 
-       printf("Qual a área em KM²?\n", area);
+       printf("Qual a área em KM² ?\n", area);
        scanf("%f", &area);
 
        printf("Qual o PIB da cidade registra no IBGE?\n", pib);

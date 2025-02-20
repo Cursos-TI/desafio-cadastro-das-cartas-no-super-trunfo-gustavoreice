@@ -88,7 +88,7 @@ int main() {
         printf("PIB : %.2f bilhões de reais\n", pib1);
         printf("Número de pontos turísticos: %d\n\n", pontoturistico1);
 
-    //Saida de Dados Recebidos Carta 02:
+    //Saida de Dados Recebidos Carta 02 :
 
         printf("***Carta 02***\n");
         printf("Estado: %s\n", estado2);

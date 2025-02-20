@@ -70,7 +70,7 @@ int main() {
         printf("Cidade: %s\n", cidade1);
         printf("População: %d\n", populacao1);
         printf("Área: %.2fkm²\n", area1);
-        printf("PIB : %.3f Milhões de reais\n", pib1);
+        printf("PIB : %.2f bilhões de reais\n", pib1);
         printf("Número de pontos turísticos: %d\n\n", pontoturistico1);
 
     //Saida de Dados Recebidos Carta 02:
@@ -81,7 +81,7 @@ int main() {
         printf("Cidade: %s\n", cidade2);
         printf("População: %d\n", populacao2);
         printf("Área: %.2fkm²\n", area2);
-        printf("PIB : %.3f Milhões de reais\n", pib2);
+        printf("PIB : %.2f bilhões de reais\n", pib2);
         printf("Número de pontos turísticos: %d\n", pontoturistico2);    
 
     return 0;

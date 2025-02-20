@@ -20,8 +20,8 @@ int main() {
 
     //Definindo variaveis:    
     
-        int populacao1, pontoturistico1, populacao2, pontoturistico2 ;
-        float  area1, pib1, area2, pib2;
+         int populacao1, pontoturistico1, populacao2, pontoturistico2 ;
+         float  area1, pib1, area2, pib2;
          char cidade1[20], estado1[20], codigo1[5], cidade2[20], estado2[20], codigo2[5];
       
 

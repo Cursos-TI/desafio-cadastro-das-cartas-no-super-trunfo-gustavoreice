@@ -51,7 +51,7 @@ int main() {
         scanf("%f", &pib1);
 
 
-    //Entrada de dados carta 02:
+    //Entrada de dados carta 02 :
 
      
 

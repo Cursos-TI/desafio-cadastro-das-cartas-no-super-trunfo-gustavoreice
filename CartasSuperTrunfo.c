@@ -18,6 +18,9 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    //Nivel Novato concluido 
+    //Nivel Aventureiro Concluido
+
     //Definindo variaveis:    
     
     int populacao1, pontoturistico1, populacao2, pontoturistico2 ;
@@ -25,33 +28,32 @@ int main() {
     char cidade1[20], estado1[20], codigo1[5], cidade2[20], estado2[20], codigo2[5];
      
 
-//Entrada de dados Carta 01:
+    //Entrada de dados Carta 01:
 
     
+    printf("Qual o código da Carta ?\n", codigo1);
+    scanf("%s", &codigo1);
 
-   printf("Qual o código da Carta ?\n", codigo1);
-   scanf("%s", &codigo1);
+    printf("Qual o estado escolhido ?\n", estado1);
+    scanf("%s", &estado1);
 
-   printf("Qual o estado escolhido ?\n", estado1);
-   scanf("%s", &estado1);
+    printf("Qual o nome da cidade escolhida ?\n", cidade1);
+    scanf("%s", &cidade1); 
 
-   printf("Qual o nome da cidade escolhida ?\n", cidade1);
-   scanf("%s", &cidade1); 
+    printf("Qual o número de pontos turisticos da cidade escolhida ?\n", pontoturistico1);
+    scanf("%d", &pontoturistico1);
 
-   printf("Qual o número de pontos turisticos da cidade escolhida ?\n", pontoturistico1);
-   scanf("%d", &pontoturistico1);
+    printf("Qual o total de habitantes ?\n", populacao1);
+    scanf("%d", &populacao1);
 
-   printf("Qual o total de habitantes ?\n", populacao1);
-   scanf("%d", &populacao1);
+    printf("Qual a área em KM² ?\n", area1);
+    scanf("%f", &area1);
 
-   printf("Qual a área em KM² ?\n", area1);
-   scanf("%f", &area1);
-
-   printf("Qual o PIB da cidade ?\n", pib1);
-   scanf("%f", &pib1);
+    printf("Qual o PIB da cidade ?\n", pib1);
+    scanf("%f", &pib1);
 
 
- //Entrada de dados carta 02:
+    //Entrada de dados carta 02:
 
     
 
@@ -76,18 +78,18 @@ int main() {
     printf("Qual o PIB da cidade ?\n", pib2);
     scanf("%f", &pib2);   
 
-// Calculando Densidade Populacional e PIB per capita:
+    // Calculando Densidade Populacional e PIB per capita:
 
-  densidade1 =  (populacao1 / area1); 
+    densidade1 =  (populacao1 / area1); 
 
-  capita1 = (pib1 / populacao1);
+    capita1 = (pib1 / populacao1);
 
-  densidade2 = (populacao2 / area2);
+    densidade2 = (populacao2 / area2);
 
-  capita2 = (pib2 / populacao2);
+    capita2 = (pib2 / populacao2);
 
     
-//Saida de Dados Recebidos Carta 01:
+    //Saida de Dados Recebidos Carta 01:
 
     printf("***Carta 01***\n");
     printf("Estado: %s\n", estado1);
@@ -100,7 +102,7 @@ int main() {
     printf("Densidade Populacional: %.3f hab/km²\n", densidade1);
     printf("PIB per Capita: %.2f reais\n\n", capita1);
 
-//Saida de Dados Recebidos Carta 01:
+    //Saida de Dados Recebidos Carta 01:
 
     printf("***Carta 02***\n");
     printf("Estado: %s\n", estado2);

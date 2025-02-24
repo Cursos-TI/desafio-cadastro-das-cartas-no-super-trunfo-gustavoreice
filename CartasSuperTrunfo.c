@@ -80,19 +80,19 @@ int main() {
 // Calculo das Cartas:
 
         // Carta 01:
-     densidade1 =  (populacao1 / area1); 
+     densidade1 =  populacao1 / area1; 
 
-     capita1 = (pib1 / populacao1);
+     capita1 = pib1 / populacao1;
 
-     poder1 = (float)(populacao1 + area1 + pib1 + pontoturistico1 + capita1 - densidade1);
+     poder1 = (float)populacao1 + area1 + pib1 + pontoturistico1 + capita1 - densidade1;
 
         // Carta 02:
 
-     densidade2 =  (populacao2 / area2);
+     densidade2 =  populacao2 / area2;
      
-     capita2 = (pib2 / populacao2);
+     capita2 = pib2 / populacao2;
 
-     poder2 = (float)(populacao2 + area2 + pib2 + pontoturistico2 + capita2 - densidade2);
+     poder2 = (float)populacao2 + area2 + pib2 + pontoturistico2 + capita2 - densidade2;
 
     
  
@@ -108,6 +108,7 @@ int main() {
     printf("Número de pontos turísticos: %d\n", pontoturistico1);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
     printf("PIB per Capita: %.2f reais\n\n", capita1);
+    
     
 
 //Saida de Dados Recebidos Carta 01:

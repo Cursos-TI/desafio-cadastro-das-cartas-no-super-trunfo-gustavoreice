@@ -84,7 +84,7 @@ int main() {
 
      capita1 = pib1 / populacao1;
 
-     poder1 = (float)populacao1 + area1 + pib1 + pontoturistico1 + capita1 - densidade1;
+     poder1 = populacao1 + area1 + pib1 + pontoturistico1 + capita1 - densidade1;
 
         // Carta 02:
 
@@ -92,7 +92,7 @@ int main() {
      
      capita2 = pib2 / populacao2;
 
-     poder2 = (float)populacao2 + area2 + pib2 + pontoturistico2 + capita2 - densidade2;
+     poder2 = populacao2 + area2 + pib2 + pontoturistico2 + capita2 - densidade2;
 
     
  

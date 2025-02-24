@@ -80,6 +80,7 @@ int main() {
 // Calculo das Cartas:
 
         // Carta 01:
+        
      densidade1 =  populacao1 / area1; 
 
      capita1 = pib1 / populacao1;

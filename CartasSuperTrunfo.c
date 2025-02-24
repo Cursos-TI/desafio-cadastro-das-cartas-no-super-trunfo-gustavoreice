@@ -41,13 +41,13 @@ int main() {
    printf("Qual o número de pontos turisticos da cidade escolhida ?\n", pontoturistico1);
    scanf("%d", &pontoturistico1);
 
-   printf("Qual o total de habitantes registrado no IBGE da cidade escolhida ?\n", populacao1);
+   printf("Qual o total de habitantes ?\n", populacao1);
    scanf("%d", &populacao1);
 
    printf("Qual a área em KM² ?\n", area1);
    scanf("%f", &area1);
 
-   printf("Qual o PIB da cidade registra no IBGE?\n", pib1);
+   printf("Qual o PIB da cidade ?\n", pib1);
    scanf("%f", &pib1);
 
 
@@ -64,16 +64,16 @@ int main() {
     printf("Qual o nome da cidade escolhida ?\n", cidade2);
     scanf("%s", &cidade2); 
 
-    printf("Qual o número de pontos turisticos da cidade escolhida ?\n", pontoturistico2);
+    printf("Qual o número de pontos turisticos ?\n", pontoturistico2);
     scanf("%d", &pontoturistico2);
 
-    printf("Qual o total de habitantes registrado no IBGE da cidade escolhida ?\n", populacao2);
+    printf("Qual o total de habitantes ?\n", populacao2);
     scanf("%d", &populacao2);
 
     printf("Qual a área em KM² ?\n", area2);
     scanf("%f", &area2);
 
-    printf("Qual o PIB da cidade registra no IBGE?\n", pib2);
+    printf("Qual o PIB da cidade ?\n", pib2);
     scanf("%f", &pib2);   
 
 // Calculando Densidade Populacional e PIB per capita:

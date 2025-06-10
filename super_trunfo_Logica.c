@@ -32,50 +32,50 @@ int main() {
             printf("\nAtributo Selecionado: População\n");
             printf("Carta 1 - %s (%s): %u\n", cidade1, estado1, populacao1);
             printf("Carta 2 - %s (%s): %u\n", cidade2, estado2, populacao2);
-            if (populacao1 > populacao2)
-                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-            else
-                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+            if (populacao1 > populacao2) {
+                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);}
+            else {
+                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);}
             break;
 
         case 2:
             printf("\nAtributo Selecionado: Área\n");
             printf("Carta 1 - %s (%s): %.2f\n", cidade1, estado1, area1);
             printf("Carta 2 - %s (%s): %.2f\n", cidade2, estado2, area2);
-            if (area1 > area2)
-                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-            else
-                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+            if (area1 > area2){
+                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);}
+            else {
+                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);}
             break;
 
         case 3:
             printf("\nAtributo Selecionado: PIB\n");
             printf("Carta 1 - %s (%s): %.2f\n", cidade1, estado1, pib1);
             printf("Carta 2 - %s (%s): %.2f\n", cidade2, estado2, pib2);
-            if (pib1 > pib2)
-                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-            else
-                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+            if (pib1 > pib2){
+                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);}
+            else{
+                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);}
             break;
 
         case 4:
             printf("\nAtributo Selecionado: Pontos Turísticos\n");
             printf("Carta 1 - %s (%s): %d\n", cidade1, estado1, pontoturistico1);
             printf("Carta 2 - %s (%s): %d\n", cidade2, estado2, pontoturistico2);
-            if (pontoturistico1 > pontoturistico2)
-                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-            else
-                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+            if (pontoturistico1 > pontoturistico2){
+                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);}
+            else{
+                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);}
             break;
 
         case 5:
             printf("\nAtributo Selecionado: Densidade Populacional\n"); //Vence a cartar com a menor densidade.
             printf("Carta 1 - %s (%s): %.2f\n", cidade1, estado1, densidade1);
             printf("Carta 2 - %s (%s): %.2f\n", cidade2, estado2, densidade2);
-            if (densidade1 < densidade2)
-                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1); 
-            else
-                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+            if (densidade1 < densidade2){
+                printf("Resultado: Carta 1 (%s) venceu!\n", cidade1); }
+            else{
+                printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);}
             break;
 
         default:
